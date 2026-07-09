@@ -1,8 +1,8 @@
-export const SUBTITLE = "A free clone of LinkTree"
-export const TITLE = "LinkTreeFreeClone"
-export const TAGLINE = "Make your own LinkTree page for free"
+export const SUBTITLE = "Bagus Rizqy Febian"
+export const TITLE = "Student at SMP Kelas 8"
+export const TAGLINE = "Welcome to my page! Kepoin media sosial aku di bawah ya ✨"
 
 // Contacts
-export const contact = "Keep in touch"
-export const phone = "+33600000000"
-export const email = "contact@yoandev.co"
+export const contact = "Hubungi aku"
+export const phone = "+6285876962829"
+export const email = "bagusfebian328@gmail.com"
