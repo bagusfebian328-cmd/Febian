@@ -5,21 +5,15 @@ test('homepage has title and links', async ({ page }) => {
 
   await expect(page).toHaveTitle(/LinkTreeFreeClone/);
 
-  const twitter = page.getByRole('link', { name: '🐦 Twitter' });
-  await expect(twitter).toHaveAttribute('href', 'https://twitter.com/yOyO38');
+  const twitter = page.getByRole('link', { name: '🌴 TikTok' });
+  await expect(twitter).toHaveAttribute('href', 'https://www.tiktok.com/@81yanho?_r=1&_t=ZS-97tGqg2JrSm');
 
-  const youtube = page.getByRole('link', { name: '📺 Youtube' });
-  await expect(youtube).toHaveAttribute('href', 'https://www.youtube.com/c/yoandevco');
-
-  const github = page.getByRole('link', { name: '🐙 Github' });
-  await expect(github).toHaveAttribute('href', 'https://github.com/yoanbernabeu/LinkTreeFreeClone');
-
-  const blog = page.getByRole('link', { name: '📝 Blog' });
-  await expect(blog).toHaveAttribute('href', 'https://yoandev.co');
+  const youtube = page.getByRole('link', { name: '🎒 Instagram' });
+  await expect(youtube).toHaveAttribute('href', 'https://www.instagram.com/imnotfebian?igsh=MWQ2ZGtzZGIweHl1eg==');
 
   const phone = page.getByRole('link', { name: '☎️ Call me' });
-  await expect(phone).toHaveAttribute('href', 'tel://+33600000000');
+  await expect(phone).toHaveAttribute('href', 'tel://+6285876962829');
 
   const email = page.getByRole('link', { name: '📪 Email me' });
-  await expect(email).toHaveAttribute('href', 'mailto://contact@yoandev.co');
+  await expect(email).toHaveAttribute('href', 'bagusfebian328@gmail.com');
 });
