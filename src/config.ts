@@ -1,5 +1,5 @@
 export const SUBTITLE = "Bagus Rizqy Febian"
-export const TITLE = "Student at SMP Kelas 8"
+export const TITLE = "Student at SMP Kelas 8🎒"
 export const TAGLINE = "Welcome to my page! Kepoin media sosial aku di bawah ya ✨"
 
 // Contacts
