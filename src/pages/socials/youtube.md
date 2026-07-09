@@ -1,4 +1,4 @@
 ---
-icon: youtube
-url: https://www.youtube.com/c/yoandevco
+icon: Instagram
+url: https://www.instagram.com/imnotfebian?igsh=MWQ2ZGtzZGIweHl1eg==
 ---
